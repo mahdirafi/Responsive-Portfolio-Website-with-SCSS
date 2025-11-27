@@ -1,0 +1,72 @@
+ /* Left side animation */
+.hero-left,#project-2nd{
+  flex: 1; 
+  animation: slideInLeft 2s ease forwards;
+  opacity: 0; 
+}
+
+#btn .btn:hover {
+  transform: scale(1.05);
+}
+
+/* Keyframes */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Right side animation */
+.hero-right,.project-box {
+  flex: 1;
+  animation: slideInRight 2s ease forwards;
+  opacity: 0; /* start hidden */
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+ .project-details h2{
+  flex:1;
+  animation: slideInLeft 2s ease forwards;
+  opacity: 0;
+ }
+ @keyframes slideInLeft {
+  from{
+  transform: translateX(-300px);
+  opacity: 0;
+ }
+ to {
+  transform: translateX(0);
+  opacity: 1;
+ }
+}
+.project-details h1{
+  flex:1;
+  animation: slideInRight 2s ease forwards;
+  opacity: 0;
+}
+@keyframes slideInRight {
+  from{
+    transform:translateX(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+ 

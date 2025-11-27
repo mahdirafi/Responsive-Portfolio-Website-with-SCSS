@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website With SASS</title>
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/SCSS/main.css">
+    <link rel="stylesheet" href="assets/SCSS/animation.css">
+    <link rel="stylesheet" href="assets/SCSS/Resposive.css">
+</head>
+
+<body>
+<!-- Header start-->
+ <header class="header">
+  <div class="logo">
+    <img src="/assets/IMG/brands-4.png" alt="Logo">
+  </div>
+  <nav class="nav">
+    <ul>
+      <li><a  class="anchor" href="#home">Home</a></li>
+      <li><a  class="anchor" href="#about">About</a></li>
+      <li><a  class="anchor" href="#projects">Projects</a></li>
+      <li><a  class="anchor" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+ <!-- header end -->
+
+ <!-- Hero Section Start -->
+    <div class="hero" id="hero">
+        <div class="container" id="hero-container">
+            <div class="hero-left">
+                <h1>Front-End Developer <span>Crafting</span> Modern Web Experiences </h1>
+                <p> Passionate Front-End web developer with experience in designing <br>and developing dynamic websites
+                    and
+                    applications.</p>
+                <div id="btn">
+                    <button class="btn" id="btn1">Explore Works</button>
+                    <button class="btn" id="btn2">Download CV</button>
+                </div>
+            </div>
+            <!-- img -->
+            <div class="hero-right"><img src="./assets/IMG/hero-dev.png" alt=""></div>
+        </div>
+    </div>
+<!-- Hero Section End -->
+
+    <!-- Project or Skills Section -->
+    <div class="project">
+        <div class="container" id="project-container">
+            <div class="project-details">
+                <h2>Projects</h2>
+                <h1>Skills That Power My Code</h1>
+            </div>
+
+
+            <div class="card-box" id="card-box">
+
+                <div class="card" id="card">
+                    <img src="./assets/IMG/html.png" alt="">
+                    <h3>HTML 5</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+                <div class="card" id="card">
+                    <img src="./assets/IMG/css.png" alt="">
+                    <h3>CSS 3</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+                <div class="card" id="card">
+                    <img src="./assets/IMG/js.png" alt="">
+                    <h3>JavaScript (ES6)</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+
+            <!-- </div>
+             
+            <div class="card-box" id="card-box"> -->
+                <div class="card" id="card">
+                    <img src="./assets/IMG/react.png" alt="">
+                    <h3>React JS</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+                <div class="card" id="card">
+                    <img src="./assets/IMG/redux.png" alt="">
+                    <h3>Redux JS</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+                <div class="card" id="card">
+                    <img src="./assets/IMG/next.png" alt="">
+                    <h3>Next JS</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+
+            <!-- </div>
+
+            
+            <div class="card-box" id="card-box"> -->
+                <div class="card" id="card">
+                    <img src="./assets/IMG/typescript.png" alt="">
+                    <h3>TypeScript</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+                <div class="card" id="card">
+                    <img src="./assets/IMG/socket.png" alt="">
+                    <h3>Socket</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+                <div class="card" id="card">
+                    <img src="./assets/IMG/Node.png" alt="">
+                    <h3>Node JS</h3>
+                    <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing elit.</p>
+                    <a href="#">Explore Work</a>
+                </div>
+
+
+            </div>
+            <!-- bottom  -->
+        </div>
+    </div>
+
+
+    <!--  Recent Work -->
+    <div class="project">
+        <div class="container" id="project-container">
+            <div class="project-details">
+                <h2>All Work </h2>
+                <h1> My Recent Works</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Project box  -->
+    <div class="project-box">
+        <div class="container" id="project-box">
+            <div class="project-card" id="project-card1">
+
+                <div class="project-img">
+                    <img src="/assets/IMG/project-doctoriano.png" alt="images">
+                </div>
+
+                <div class="project-content">
+                    <h3>Doctoriano</h3>
+                    <p>June 2025 - November 2025</p>
+                    <p>Not until the creation and maintenance of decent conditions of life for all people are recognized
+                        and accepted as a common obligation of all people and all countries—not until then shall we,
+                        with a certain degree of justification, be able to speak of humankind as civilized</p>
+                    <button class="btn" id="btn1">Download App</button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    
+
+
+    <!--2nd Project box  -->
+    <div class="project-box" id="project-2nd">
+        <div class="container" id="project-box">
+            <div class="project-card" id="project-card2">
+
+                <div class="project-img">
+                    <img src="/assets/IMG/project-ieltstar.png" alt="images">
+                </div>
+
+                <div class="project-content">
+                    <h3>Ieltsrar</h3>
+                    <p>June 2025 - November 2025</p>
+                    <p>Not until the creation and maintenance of decent conditions of life for all people are recognized
+                        and accepted as a common obligation of all people and all countries—not until then shall we,
+                        with a certain degree of justification, be able to speak of humankind as civilized</p>
+                    <button class="btn" id="btn1">Download App</button>
+                </div>
+
+
+            </div>
+            <!-- Second project  -->
+
+            <!-- project end -->
+        </div>
+    </div>
+    </div>
+    <!-- 3rd project  -->
+ <div class="project-box">
+        <div class="container" id="project-box">
+            <div class="project-card" id="project-card1">
+
+                <div class="project-img">
+                    <img src="/assets/IMG/project-mewopay.png" alt="images">
+                </div>
+
+                <div class="project-content">
+                    <h3>Mewopay</h3>
+                    <p>June 2025 - November 2025</p>
+                    <p>Not until the creation and maintenance of decent conditions of life for all people are recognized
+                        and accepted as a common obligation of all people and all countries—not until then shall we,
+                        with a certain degree of justification, be able to speak of humankind as civilized</p>
+                    <button class="btn" id="btn1">Download App</button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+<!-- Brands -->
+  <div class="project" id="exprience">
+        <div class="container" id="project-container" >
+            <div class="project-details">
+                <h2>Experience </h2>
+                <h1> Brands That Trusted My Work</h1>
+            </div>
+            <div class="company-card">
+                <div class="brands"><img src="./assets/IMG/brands-1.png" alt=""></div>
+                <div class="brands"><img src="./assets/IMG/brands-2.png" alt=""></div>
+                <div class="brands"><img src="./assets/IMG/brands-3.png" alt=""></div>
+                <div class="brands"><img src="./assets/IMG/brands-4.png" alt=""></div>
+                <div class="brands"><img src="./assets/IMG/brands-5.png" alt=""></div>
+                <div class="brands"><img src="./assets/IMG/brands-6.png" alt=""></div>
+                <div class="brands"><img src="./assets/IMG/brands-7.png" alt=""></div>
+            </div>
+            <div class="btn-container">
+                <button class="btn" id="btn1">Explore More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+     <footer class="footer">
+  <div class="footer-container">
+    <!-- Logo -->
+    <div class="footer-logo">
+         <img src="/assets/IMG/brands-4.png" alt="">
+    </div>
+
+    <!-- Navigation -->
+    <ul class="footer-nav">
+      <li><a  class="anchor" href="#home">Home</a></li>
+      <li><a  class="anchor" href="#about">About</a></li>
+      <li><a  class="anchor" href="#projects">Projects</a></li>
+      <li><a  class="anchor"href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Social Icons -->
+    <div class="footer-social">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 MyPortfolio. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+
+</html>

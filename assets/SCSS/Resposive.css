@@ -1,0 +1,366 @@
+/* Min & Max 600px , min-width 768px, min-width 992px, min-width 1200px */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header {
+    padding: 1.5rem 2rem;
+    margin: 0;
+    flex-direction:  row;
+    align-items: flex-start;
+  }
+
+  .logo img {
+    height: 32px;
+    padding-left: 0;
+  }
+
+  .nav ul {
+    flex-direction: row;
+    gap: 15px;
+    padding: 1rem 0 0 0;
+  }
+  .anchor{
+    font-size: 1rem;
+  }
+/* hero section code */
+ #hero {
+    height: auto;
+    padding: 4rem 2rem;
+    margin-bottom: 5rem;
+    background-size: cover;
+  }
+
+  #hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+
+  .hero-left p {
+    font-size: 1.4rem;
+    line-height: 22px;
+  }
+
+  #btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .hero-right img {
+    max-width: 28rem;
+    margin-top: 3rem;
+  }
+  /* hero end */
+  /* project section start */
+  .project {
+    margin: 30px 0;
+  }
+
+  .project-details h2 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+
+  .project-details h1 {
+    font-size: 2.8rem;
+    line-height: 1.3;
+  }
+
+  #project-container {
+    padding: 0 1.5rem;
+  }
+
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card img {
+    width: 70px;
+  }
+/* All work */
+.project-box {
+    padding: 0 1.5rem;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #project-card2{
+    flex-direction: column;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-content h3 {
+    font-size: 2rem;
+  }
+
+  .project-content p {
+    font-size: 1.4rem;
+    line-height: 22px;
+  }
+
+  #btn1 {
+    width: 100%;
+  }
+}
+
+
+ 
+
+@media (min-width: 600px) and (max-width: 768px) {
+.anchor{
+    font-size: 1.2rem;
+  }
+  .header {
+    padding: 1.5rem 3rem;
+    margin: 0;
+  }
+
+  .logo img {
+    height: 35px;
+    padding-left: 1rem;
+  }
+
+  .nav ul {
+    gap: 20px;
+    padding: 0 2rem;
+  }
+  /* hero start */
+  #hero {
+    height: auto;
+    padding: 5rem 3rem;
+  }
+
+  #hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 3.6rem;
+  }
+
+  .hero-right img {
+    max-width: 35rem;
+    margin-top: 3rem;
+  }
+  /* hero end */
+  /* Project start */ .project-details h1 {
+    font-size: 3.4rem;
+  }
+
+  .card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 45%; /* 2 cards per row */
+  }
+
+  .card img {
+    width: 80px;
+  }
+  /* All work */
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+ #project-card2{
+    flex-direction: column;
+  }
+  .project-img img {
+    width: 100%;
+  }
+
+  .project-content h3 {
+    font-size: 2.2rem;
+  }
+
+  .project-content p {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+.anchor{
+    font-size: 1.5rem;
+  }
+  .header {
+    padding: 2rem 3rem;
+  }
+
+  .nav ul {
+    gap: 20px;
+    padding: 0 4rem;
+  }
+  /* hero start */
+  #hero {
+    height: auto;
+    padding: 6rem 4rem;
+  }
+
+  #hero-container {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .hero-left h1 {
+    font-size: 3rem;
+  }
+
+  .hero-right img {
+    max-width: 40rem;
+  }
+  #btn2{
+    margin: 1rem 0;
+  }
+  /* project section */
+  .project-details h1 {
+    font-size: 3.8rem;
+  }
+
+  .card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.5rem;
+  }
+
+  .card {
+    width: 45%; /* 2 cards per row */
+  }
+
+  .card img {
+    width: 90px;
+  }
+  /* All work */
+   .project-card {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  
+
+  .project-content h3 {
+    font-size: 2.3rem;
+  }
+
+  .project-content p {
+    font-size: 1.5rem;
+  }
+   
+}
+  /* Project start */
+   
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .header {
+    padding: 2rem 4rem;
+  }
+
+  .nav ul {
+    gap: 22px;
+    padding: 0 6rem;
+  }
+  /* hero section */
+  #hero {
+    padding: 6rem 6rem;
+  }
+
+  .hero-left h1 {
+    font-size: 4.4rem;
+  }
+
+  .hero-right img {
+    max-width: 45rem;
+  }
+  #btn2{
+    margin: 1rem 0;
+  }
+  /* project start */.project-details h1 {
+    font-size: 4rem;
+  }
+
+  .card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+
+  .card {
+    width: 30%; /* 3 cards per row */
+  }
+
+  .card img {
+    width: 100px;
+  }
+  /* All work */
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+   
+
+  .project-content h3 {
+    font-size: 2.4rem;
+  }
+
+}
+/*  largest Device Size */
+@media (min-width: 1200px) {
+
+  .card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+
+  .card {
+    width: 30%; /* 3 cards per row */
+  }
+
+  .card img {
+    width: 110px;
+  }
+  /* All work */
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  
+}
